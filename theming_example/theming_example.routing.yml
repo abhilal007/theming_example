@@ -1,0 +1,7 @@
+theming_example.contextual_node_action_form:
+  path: 'examples/theming_example'
+  defaults:
+    _title: 'Theming Example'
+    _controller: '\Drupal\theming_example\Controller\ThemingExampleController::ExampleList'
+  requirements:
+    _access: 'TRUE'
