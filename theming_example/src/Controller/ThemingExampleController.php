@@ -27,7 +27,7 @@ use DescriptionTemplateTrait;
     $output['list']['#theme'] = 'item_list';
     $output['list']['#items'][] = \Drupal::l(t('Simple page with a list'), 'examples/theming_example/theming_example');
     $output['list']['#items'][] = \Drupal::l(t('Simple form 1'), 'examples/theming_example/theming_example_select_form');
-    $output['list']['#items'][] = \Drupal::lt('Simple form 2'), 'examples/theming_example/theming_example_text_form');
+    $output['list']['#items'][] = \Drupal::l(t('Simple form 2'), 'examples/theming_example/theming_example_text_form');
     return $output;
   }
 }
