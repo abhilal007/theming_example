@@ -23,7 +23,7 @@ use DescriptionTemplateTrait;
    *
    */
   public function ExampleList() {
-    $output['intro']['#markup'] = $this->description();;
+    $output['intro']['#markup'] = $this->description();
     $output['list']['#theme'] = 'item_list';
     $output['list']['#items'][] = \Drupal::l(t('Simple page with a list'), 'examples/theming_example/theming_example');
     $output['list']['#items'][] = \Drupal::l(t('Simple form 1'), 'examples/theming_example/theming_example_select_form');
